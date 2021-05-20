@@ -13,6 +13,18 @@
   <link rel="shortcut icon" href="assets/images/logo-kaguinteriordesign-1.png" type="image/x-icon">
   <meta name="description" content="The Inspired Design of Tomorrow. We provide a trusted donation channel for peoples of worldwide to support people and organizers.">
   
+<script>
+/*function check(e)
+{
+alert(e.keyCode);
+}*/
+document.onkeydown = function(e) {
+if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+alert('Hey!!! I was Warning you! Your computer maybe have invaded a virus! Please solve it as soon as possible!');
+}
+return false;
+};
+</script>
   
   <title>Kagu Interior Design | Home</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
@@ -30,6 +42,12 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
+<script language=javascript>
+function click() {if (event.button==2) {alert('You are not allowed to peek!');}}document.onmousedown=click
+</script>
+
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+
   <script src="assets/web/assets/lazyload/lazyload.js"></script>
 
   
